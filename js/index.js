@@ -43,7 +43,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
 const navItems = document.querySelectorAll("nav a");
 navItems[0].innerHTML = "Services";
-navItems[1].innerHTML = "Prosuct";
+navItems[1].innerHTML = "Product";
 navItems[2].innerHTML = "Vision";
 navItems[3].innerHTML = "Features";
 navItems[4].innerHTML = "About";
@@ -58,5 +58,9 @@ domAwe[0].innerHTML = "Dom <br> is <br> Awesome";
 const button = document.querySelectorAll("button");
 button[0].innerHTML = "Get Started";
 
-
-
+const textHead = document.querySelectorAll("h4");
+textHead[0].innerHTML = "Features";
+textHead[1].innerHTML = "About";
+textHead[2].innerHTML = "Services";
+textHead[3].innerHTML = "Product";
+textHead[4].innerHTML = "Vision";
