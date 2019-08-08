@@ -49,6 +49,15 @@ navItems[3].innerHTML = "Features";
 navItems[4].innerHTML = "About";
 navItems[5].innerHTML = "Contact";
 
+//Tasks 3
+navItems[0].style.color = "green";
+navItems[1].style.color = "green";
+navItems[2].style.color = "green";
+navItems[3].style.color = "green";
+navItems[4].style.color = "green";
+navItems[5].style.color = "green";
+
+
 const headerImg = document.getElementById("cta-img")
 headerImg.setAttribute('src', siteContent["cta"]["img-src"]);
 
