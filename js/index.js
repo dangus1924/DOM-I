@@ -57,6 +57,18 @@ navItems[3].style.color = "green";
 navItems[4].style.color = "green";
 navItems[5].style.color = "green";
 
+const image = document.createElement("img");
+const imageTwo = document.createElement("img");
+image.src = "https://sankimetal.com/wp-content/uploads/2018/01/bg-green-header-02.jpg";
+imageTwo.src = "https://sankimetal.com/wp-content/uploads/2018/01/bg-green-header-02.jpg";
+image.style.height = "50px"
+image.style.width = "15%"
+imageTwo.style.height = "50px"
+imageTwo.style.width = "100%"
+
+document.querySelector("nav").appendChild(image);
+document.querySelector("footer").prepend(imageTwo);
+
 
 const headerImg = document.getElementById("cta-img")
 headerImg.setAttribute('src', siteContent["cta"]["img-src"]);
