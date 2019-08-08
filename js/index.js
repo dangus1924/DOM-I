@@ -64,6 +64,7 @@ textHead[1].innerHTML = "About";
 textHead[2].innerHTML = "Services";
 textHead[3].innerHTML = "Product";
 textHead[4].innerHTML = "Vision";
+textHead[5].innerHTML = "Contact";
 
 const middleImg = document.getElementById("middle-img")
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
@@ -75,4 +76,9 @@ descrip[2].innerText = siteContent["main-content"]["services-content"];
 descrip[3].innerText = siteContent["main-content"]["product-content"];
 descrip[4].innerText = siteContent["main-content"]["vision-content"];
 
-const 
+const contact = document.querySelectorAll("p");
+contact[5].innerHTML = "123 Way 456 street <br> Somewhere, USA <br><br> 1 (888) 888-8888 <br><br> sales@greatidea.io"
+
+const foot = document.querySelectorAll("p");
+foot[6].innerHTML = "<br><br>Copyright Great Idea! 2018"
+foot[6].style.textAlign = "center"
