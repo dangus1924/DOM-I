@@ -64,3 +64,15 @@ textHead[1].innerHTML = "About";
 textHead[2].innerHTML = "Services";
 textHead[3].innerHTML = "Product";
 textHead[4].innerHTML = "Vision";
+
+const middleImg = document.getElementById("middle-img")
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+const descrip = document.querySelectorAll(".text-content p");
+descrip[0].innerText = siteContent["main-content"]["features-content"];
+descrip[1].innerText = siteContent["main-content"]["about-content"];
+descrip[2].innerText = siteContent["main-content"]["services-content"];
+descrip[3].innerText = siteContent["main-content"]["product-content"];
+descrip[4].innerText = siteContent["main-content"]["vision-content"];
+
+const 
